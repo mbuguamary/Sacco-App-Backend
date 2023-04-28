@@ -12,7 +12,7 @@ import lombok.NoArgsConstructor;
 @Entity
 @Table(name="pb_dividend_qnr")
 public class Dividend {
-    private Integer id;
+    private Long id;
     private String acc_name;
     private String acc_no;
     private String user_name;

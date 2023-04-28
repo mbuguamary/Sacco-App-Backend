@@ -20,7 +20,7 @@ public class LoanController {
     }
    @PostMapping
     public void registerNewLoan(@RequestBody Loan loan){
-        LoanService.addNewLoan(loan);
+        loanService.addNewLoan(loan);
     }
     @DeleteMapping(path = "{loanId}")
     public void deleteLoan(@PathVariable("loanId") Long loanId){
