@@ -8,5 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping(path = "api/v1/dividend")
 @AllArgsConstructor
 public class DividendController {
+    private final DividendService dividendService;
 
 }
